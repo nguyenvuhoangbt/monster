@@ -24,6 +24,7 @@
       "@/src/*": ["src/*"],
       "@/components/*": ["src/components/*"],
     },
+    "downlevelIteration": true
   },
   "exclude": ["node_modules"]
 }
