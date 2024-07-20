@@ -7,11 +7,11 @@ import { Canvas } from '@react-three/fiber'
 function App() {
   return (
     <Suspense fallback={null}>
-      {/* <CarDemo /> */}
+      <CarDemo />
       {/* <FloatingPortals /> */}
-      <Canvas>
+      {/* <Canvas>
         <SceneMeteor />
-      </Canvas>
+      </Canvas> */}
     </Suspense>
   )
 }
